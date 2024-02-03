@@ -51,7 +51,7 @@ const App = () => {
     y: [0, data.find((row) => row.ID === userId)?.["Value 2"] || 0],
     type: 'scatter',
     mode: 'lines',
-    line: { color: 'blue', width: 2 },
+    line: { color: 'blue', width: 5 },
     name: data.find((row) => row.ID === userId)?.Name || '',
   }));
 
